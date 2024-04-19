@@ -327,12 +327,10 @@ design rules under a new name.
 <contactref element="SEN1" pad="3"/>
 <wire x1="148.5426" y1="66.7892" x2="9.525" y2="90.2298" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="U1_5V">
-<contactref element="U1" pad="5V"/>
+<signal name="U1_3.3V">
 <contactref element="SEN1" pad="1"/>
-<contactref element="U3" pad="2"/>
-<wire x1="135.8426" y1="66.7892" x2="246.4164" y2="29.0068" width="0" layer="19" extent="1-1"/>
-<wire x1="135.8426" y1="66.7892" x2="4.445" y2="90.2298" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="3.3V"/>
+<wire x1="4.445" y1="90.2298" x2="133.3026" y2="66.7892" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U1_SCL">
 <contactref element="U3" pad="4"/>
@@ -343,6 +341,11 @@ design rules under a new name.
 <contactref element="U3" pad="3"/>
 <contactref element="U1" pad="SDA"/>
 <wire x1="246.4164" y1="26.4668" x2="119.3326" y2="115.0492" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="U1_5V">
+<contactref element="U1" pad="5V"/>
+<contactref element="U3" pad="2"/>
+<wire x1="135.8426" y1="66.7892" x2="246.4164" y2="29.0068" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
